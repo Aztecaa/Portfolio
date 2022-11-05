@@ -1,0 +1,42 @@
+#aboutMe {
+  height: 100vh;
+  display: grid;
+  grid-template-rows: auto;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+}
+.btn-aboutMe{
+  background-color: #ff7d00;
+  border-radius: 5px;
+  padding: 5px;
+  border: none;
+}
+.btn-aboutMe:hover{
+  box-shadow: 0 0 10px #ff7d00;
+}
+.btn-aboutMe a{
+  color: #1e1e1e;
+  text-decoration: none;
+}
+.aboutMeItem {
+  margin: 0 20px;
+}
+.ilustration1 {
+  width: 500px;
+}
+
+@media screen and (max-width: 992px) {
+  .ilustration1 {
+    width: 300px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .ilustration1 {
+    width: 400px;
+  }
+  #aboutMe {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+}

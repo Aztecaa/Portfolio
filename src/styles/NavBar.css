@@ -1,0 +1,26 @@
+.NavBar {
+  padding: 10px;
+  position: fixed;
+  width: 100%;
+  display: flex;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 999;
+  justify-content: space-between;
+}
+.link {
+  margin-right: 10px;
+}
+.link:hover {
+  cursor: pointer;
+  color: #ff7d00;
+  text-shadow: 0 0 5px rgb(255, 125, 0), 0 0 10px rgb(255, 174, 0);
+}
+.navA {
+  margin: 0 10px;
+  color: #fff;
+}
+.navBarIcon:hover {
+  cursor: pointer;
+  color: #ff7d00;
+  text-shadow: 0 0 5px rgb(255, 125, 0), 0 0 10px rgb(255, 174, 0);
+}

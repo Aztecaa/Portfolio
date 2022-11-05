@@ -1,0 +1,35 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: rgb(230, 230, 230);
+}
+.App{
+  text-align: center;
+}
+hr {
+  width: 15vw;
+  margin: auto;
+  border: none;
+  height: 2px;
+  background-color: #FF7D00;
+}
+h3 a{
+  margin: 5px;
+}
+
+h2{
+  color: #ff9c40;
+  text-shadow: 0 0 10px #FF7D00;
+}
+
+.flicker{
+  animation: flick 1s infinite;
+}
+
+@keyframes flick{
+  to{
+    color: #a55000;
+    text-shadow: none
+  }
+}
